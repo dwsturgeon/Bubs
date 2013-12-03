@@ -115,6 +115,9 @@
 			isa = PBXGroup;
 			children = (
 				6D891EEA1845B6D0002FF24A /* Location */,
+				6DBE7CA1184D59090094B958 /* Menu */,
+				6D9514841845787000268A6E /* AppDelegate.h */,
+				6D9514851845787000268A6E /* AppDelegate.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -166,10 +169,7 @@
 			children = (
 				6DBE7C84184D503B0094B958 /* images */,
 				6D891EE31845B544002FF24A /* Views */,
-				6D9514841845787000268A6E /* AppDelegate.h */,
-				6D9514851845787000268A6E /* AppDelegate.m */,
-				6D9514871845787000268A6E /* Main_iPhone.storyboard */,
-				6D95148A1845787000268A6E /* Main_iPad.storyboard */,
+				6DBE7CA0184D58090094B958 /* Storyboards */,
 				6D9514901845787000268A6E /* Images.xcassets */,
 				6D95147C1845787000268A6E /* Supporting Files */,
 			);
@@ -246,6 +246,46 @@
 			children = (
 			);
 			path = bubs_cafe;
+			sourceTree = "<group>";
+		};
+		6DBE7CA0184D58090094B958 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				6D9514871845787000268A6E /* Main_iPhone.storyboard */,
+				6D95148A1845787000268A6E /* Main_iPad.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		6DBE7CA1184D59090094B958 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				6DBE7CAB184D85960094B958 /* cafe_carmel */,
+				6DBE7CA9184D857D0094B958 /* burgers_carmel */,
+				6DBE7CAA184D858A0094B958 /* burgers_bloomington */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		6DBE7CA9184D857D0094B958 /* burgers_carmel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = burgers_carmel;
+			sourceTree = "<group>";
+		};
+		6DBE7CAA184D858A0094B958 /* burgers_bloomington */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = burgers_bloomington;
+			sourceTree = "<group>";
+		};
+		6DBE7CAB184D85960094B958 /* cafe_carmel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = cafe_carmel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
